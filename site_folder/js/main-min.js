@@ -6,7 +6,7 @@ const body = document.body;
 
 // Клик по кнопке
 
-navBtn.addEventListener('click', function (event) {
+navBtn.addEventListener('touchstart', function (event) {
     event.stopPropagation();
     mobileNav.classList.toggle('mobile-nav--active');
     navBtn.classList.toggle('nav-btn--close');
@@ -27,6 +27,6 @@ window.addEventListener('touchstart', function () {
 
 // Останавливаем клик внутри открытой мобильной навигации 
 
-mobileNav.addEventListener('click', function (event) {
+mobileNav.addEventListener('touchstart', function (event) {
     event.stopPropagation();
 })
