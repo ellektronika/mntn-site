@@ -27,6 +27,6 @@ window.addEventListener('touchstart', function () {
 
 // Останавливаем клик внутри открытой мобильной навигации 
 
-mobileNav.addEventListener('touchstart', function (event) {
+mobileNav.addEventListener('click', function (event) {
     event.stopPropagation();
 })
