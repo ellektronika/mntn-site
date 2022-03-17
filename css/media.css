@@ -126,6 +126,7 @@
 
   .mobile-nav--active {
     display: flex;
+    width: 50%;
   }
 
   .mobile-nav .nav,
@@ -242,7 +243,7 @@
   .article-text__title {
     font-size: 36px;
     line-height: 39px;
-}
+  }
 
   .footer-row {
     flex-wrap: wrap-reverse;
@@ -285,6 +286,10 @@
     margin-bottom: 70px;
   }
 
+  .mobile-nav--active {
+    width: 70%;
+  }
+
   .article-img img {
     max-width: 290px;
   }
@@ -303,5 +308,8 @@
     margin-bottom: 65px;
   }
 
+  .mobile-nav--active {
+    width: 70%;
+  }
 
 }
