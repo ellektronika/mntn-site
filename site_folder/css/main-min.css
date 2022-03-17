@@ -63,9 +63,6 @@
   body {
       font-family: 'Gilroy', sans-serif;
       background-color: var(--dark-green);
-      background-image: url(../img/bg/bg-min.jpg);
-      background-size: 100% auto;
-      background-repeat: no-repeat;
   }
 
   a {
@@ -109,6 +106,9 @@
 .header {
     padding-top: 64px;
     padding-bottom: 843px;
+    background-image: url(../img/bg/bg-min.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .row {
@@ -333,7 +333,7 @@
         position: fixed;
         top: 0;
         right: 0;
-        width: 320px;
+        /*width: 320px;*/
         height: 100%;
         background-color: rgba(var(--dark-green-rgb), .9);
         padding: 70px 70px 50px 30px;
