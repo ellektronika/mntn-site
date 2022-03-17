@@ -15,7 +15,7 @@ navBtn.addEventListener('click', function (event) {
 
 // Клик за пределами навигации 
 
-window.addEventListener('click', function () {
+window.addEventListener('touchstart', function () {
     console.log('cat');
 
     if (body.classList.contains('no-scroll')) {
