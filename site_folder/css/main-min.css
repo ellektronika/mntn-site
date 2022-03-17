@@ -170,7 +170,7 @@
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  background-image: url(/img/icons/account-min.svg);
+  background-image: url(../img/icons/account-min.svg);
   background-repeat: no-repeat;
 }
 
@@ -253,7 +253,7 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-image: url(/img/icons/arrow-down-min.svg);
+  background-image: url(../img/icons/arrow-down-min.svg);
 }
 
 .header-text__link:hover {
@@ -522,7 +522,7 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-image: url(/img/icons/arrow-right-min.svg);
+  background-image: url(../img/icons/arrow-right-min.svg);
 }
 
 .article-text__link:hover {
