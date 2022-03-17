@@ -101,6 +101,7 @@
 
     .no-scroll {
       overflow-y: hidden;
+      position: fixed;
     }
 
     /* Header styles start */
@@ -169,7 +170,7 @@
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  background-image: url(/img/icons/account.svg);
+  background-image: url(/img/icons/account-min.svg);
   background-repeat: no-repeat;
 }
 
@@ -252,7 +253,7 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-image: url(/img/icons/arrow-down.svg);
+  background-image: url(/img/icons/arrow-down-min.svg);
 }
 
 .header-text__link:hover {
@@ -521,7 +522,7 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-image: url(/img/icons/arrow-right.svg);
+  background-image: url(/img/icons/arrow-right-min.svg);
 }
 
 .article-text__link:hover {
