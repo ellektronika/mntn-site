@@ -345,6 +345,7 @@
       .mobile-nav .account {
         font-size: 20px;
         padding-left: 56px;
+        color: var(--dark-yellow);
       }
 
       .mobile-nav .account::before {
